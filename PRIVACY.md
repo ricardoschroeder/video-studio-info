@@ -52,6 +52,15 @@ installed and connected. Deleting the local data directory, or using the
 in-app disconnect action, permanently removes all stored credentials. No copy of
 this data exists anywhere else.
 
+## Third-party services
+
+This tool connects to YouTube and Google services using Google's own
+infrastructure and OAuth 2.0. Google's handling of the data it receives is
+governed by the [Google Privacy Policy](https://policies.google.com/privacy).
+This tool's use of information received from Google APIs adheres to the
+[Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy),
+including the Limited Use requirements.
+
 ## Contact
 
 For questions about this policy, contact: ricardoschroeder@gmail.com

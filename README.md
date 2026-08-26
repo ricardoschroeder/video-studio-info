@@ -9,8 +9,9 @@ This repository exists solely to provide the public homepage and privacy policy
 required for YouTube Data API review. The application itself is source-available
 only to its operator; this page documents its behavior for reviewers and users.
 
-- **Homepage:** https://ricardoschroeder.github.io/video-studio-info/
-- **Privacy Policy:** https://ricardoschroeder.github.io/video-studio-info/privacy.html
+- **Homepage:** https://ricardoschroeder.github.io/youtube-studio-info/
+- **Privacy Policy:** https://ricardoschroeder.github.io/youtube-studio-info/privacy.html
+- **Terms of Service:** https://ricardoschroeder.github.io/youtube-studio-info/terms.html
 
 ## What it does
 
@@ -33,5 +34,5 @@ other than its operator.
 
 ## Data handling
 
-See the [Privacy Policy](https://ricardoschroeder.github.io/video-studio-info/privacy.html)
+See the [Privacy Policy](https://ricardoschroeder.github.io/youtube-studio-info/privacy.html)
 for full details on how OAuth credentials are stored and how access can be revoked.
