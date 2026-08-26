@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — AI YouTube Production Studio</title>
+<style>
+  :root {
+    color-scheme: light;
+    --bg: #ffffff;
+    --fg: #1a1a1a;
+    --muted: #5b5b5b;
+    --border: #e3e3e3;
+    --accent: #b3261e;
+    --code-bg: #f4f4f4;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+  }
+  main {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 3rem 1.5rem 5rem;
+  }
+  h1 { font-size: 1.6rem; margin-bottom: 0.25rem; }
+  .updated { color: var(--muted); margin-top: 0; margin-bottom: 2rem; font-size: 0.9rem; }
+  h2 {
+    font-size: 1.1rem;
+    margin-top: 2.2rem;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 0.4rem;
+  }
+  ul { padding-left: 1.3rem; }
+  li { margin: 0.4rem 0; }
+  code {
+    background: var(--code-bg);
+    padding: 0.15em 0.4em;
+    border-radius: 4px;
+    font-size: 0.9em;
+    word-break: break-all;
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .back { display: inline-block; margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--border); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Privacy Policy — AI YouTube Production Studio</h1>
+  <p class="updated">Last updated: August 26, 2026</p>
+
+  <p>
+    AI YouTube Production Studio ("the tool") is a personal, self-hosted
+    application built and operated by a single individual (Ricardo Schroeder)
+    for producing and uploading videos to that individual's own YouTube
+    channel. It is not distributed as a service to other users.
+  </p>
+
+  <h2>What data the tool accesses</h2>
+  <p>When connected to YouTube, the tool requests the following OAuth scopes:</p>
+  <ul>
+    <li><code>https://www.googleapis.com/auth/youtube.upload</code></li>
+    <li><code>https://www.googleapis.com/auth/youtube.readonly</code></li>
+  </ul>
+  <p>
+    These are used only to read basic information about the operator's own
+    connected channel (channel ID and title) and to upload videos, thumbnails,
+    and metadata that the operator produced using the tool.
+  </p>
+  <p>
+    The tool does not access, collect, or process data belonging to any other
+    YouTube user, channel, or viewer. It has no public-facing accounts,
+    sign-up flow, or multi-user functionality.
+  </p>
+
+  <h2>How data is stored</h2>
+  <p>
+    OAuth access and refresh tokens returned by Google are written to a
+    single JSON file on the operator's own local machine, inside the
+    application's private data directory. This file:
+  </p>
+  <ul>
+    <li>Is never transmitted to any third-party server.</li>
+    <li>Is never logged, analyzed, or shared.</li>
+    <li>Exists only on the operator's local disk, alongside the application itself.</li>
+  </ul>
+  <p>
+    No YouTube data, credentials, or tokens are stored in any cloud database,
+    remote service, or third party of any kind.
+  </p>
+
+  <h2>How to revoke access</h2>
+  <p>The operator can revoke the tool's access at any time in either of two ways:</p>
+  <ul>
+    <li>Using the "Disconnect YouTube" action inside the application, which deletes the local token file immediately.</li>
+    <li>Directly through Google's own account permissions page at
+      <a href="https://myaccount.google.com/permissions" target="_blank" rel="noreferrer">myaccount.google.com/permissions</a>,
+      which revokes the OAuth grant at the source regardless of the tool's local state.</li>
+  </ul>
+
+  <h2>Data retention and deletion</h2>
+  <p>
+    Tokens are retained locally only for as long as the operator keeps the
+    application installed and connected. Deleting the local data directory,
+    or using the in-app disconnect action, permanently removes all stored
+    credentials. No copy of this data exists anywhere else.
+  </p>
+
+  <h2>Contact</h2>
+  <p>For questions about this policy, contact: <a href="mailto:ricardoschroeder@gmail.com">ricardoschroeder@gmail.com</a></p>
+
+  <a class="back" href="index.html">&larr; Back to homepage</a>
+</main>
+</body>
+</html>
