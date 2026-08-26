@@ -1,8 +1,8 @@
-# Privacy Policy — AI YouTube Production Studio
+# Privacy Policy — AI Video Production Studio
 
 _Last updated: 2026-08-26_
 
-AI YouTube Production Studio ("the tool") is a personal, self-hosted application
+AI Video Production Studio ("the tool") is a personal, self-hosted application
 built and operated by a single individual (Ricardo Schroeder) for producing and
 uploading videos to that individual's own YouTube channel. It is not distributed
 as a service to other users.
